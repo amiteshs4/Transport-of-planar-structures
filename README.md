@@ -32,4 +32,4 @@ where\
 \Lambda_{sr}(t) &= \frac{1}{3}\int_0^{t}\langle \boldsymbol{v}^{s}_i(0)\cdot\boldsymbol{v}^{r}_j(\tau)\rangle\,d\tau\,\,(s\neq r),\\
 \end{aligned}
 ```
-and as $t\rightarrow\infty$, we obtain $D_{\text{PAH},\text{N}_2}(t)$ converges to the binary diffusion coefficient.
+and as $t\rightarrow\infty$, $D_{\text{PAH},\text{N}_2}(t)$ would converge to the binary diffusion coefficient.
