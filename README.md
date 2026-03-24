@@ -17,9 +17,9 @@ The incident relative velocity is given by gin[sin(thetain)*cos(phiin),sin(theta
 **PAH_GreenKubo**\
 
 Folder of the diffusion coefficients evaluated using the Green-Kubo approach. Files D1.txt, D2.txt, .., D5.txt represent the diffusion coefficient evaluations for 5 independent simulation runs. The data has two columns - \
-```math
-t  D_{\text{PAH}-\text{N}_2}(t)\
-```
+
+$t$        $D_{\text{PAH}-\text{N}_2}(t)$
+
 where $t$ is the time elapsed in fs and $D_{\text{PAH}-\text{N}_2}(t)$ is the function given by,\
 ```math
 D_{\text{PAH}-\text{N}_2}(t) = X_{\text{N}_2}\Lambda_{\text{PAH}}(t) + X_1\Lambda_{\text{N}_2}(t) + \frac{X_{\text{N}_2}}{X_{\text{PAH}}}\Lambda_{\text{PAH}-\text{PAH}}(t) + \frac{X_{\text{PAH}}}{X_{\text{N}_2}}\Lambda_{{\text{N}_2}-{\text{N}_2}}(t) - 2\Lambda_{\text{PAH}-{\text{N}_2}}(t)
