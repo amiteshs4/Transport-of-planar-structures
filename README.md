@@ -24,7 +24,7 @@ where $t$ is the time elapsed in fs and $D_{\text{PAH},\text{N}_2}(t)$ is the fu
 ```math
 D_{\text{PAH},\text{N}_2}(t) = X_{\text{N}_2}\Lambda_{\text{PAH}}(t) + X_1\Lambda_{\text{N}_2}(t) + \frac{X_{\text{N}_2}}{X_{\text{PAH}}}\Lambda_{\text{PAH},\text{PAH}}(t) + \frac{X_{\text{PAH}}}{X_{\text{N}_2}}\Lambda_{{\text{N}_2},{\text{N}_2}}(t) - 2\Lambda_{\text{PAH},{\text{N}_2}}(t)
 ```
-where\
+where
 ```math
 \begin{aligned}
 \Lambda_{s}(t) &= \frac{1}{3}\int_0^{t}\langle \boldsymbol{v}^{s}_i(0)\cdot\boldsymbol{v}^{s}_i(\tau)\rangle\,d\tau,\\
